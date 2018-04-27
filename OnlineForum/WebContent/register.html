@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    
+
+<div class="container">
+    <div class="loginDiv">
+  <h2>Register yourself</h2>
+  <form action="MainServlet/Register" method="POST">
+      <div class="form-group">
+      <label for="FirstName">First Name:</label>
+      <input type="text" name="signupFName" class="form-control" id="FirstName" placeholder="Enter First Name">
+    </div>
+      <div class="form-group">
+      <label for="LastName">Last Name:</label>
+      <input type="text" name="signupLName" class="form-control" id="LastName" placeholder="Enter Last Name">
+    </div>
+    <div class="form-group">
+      <label for="Phone">Phone:</label>
+      <input type="text" name="signupPhone" class="form-control" id="Phone" placeholder="Enter Phone number">
+    </div>
+    <div class="form-group">
+        <label class="radio-inline">
+            <input type="radio" value="user" name="usertype" checked="true"> User
+        </label>
+        <label class="radio-inline">
+            <input type="radio" value="admin" name="usertype"> Admin
+        </label>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" name="signupEmail" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" name="signupPassword" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+    <br>
+    <br>
+  </form>
+</div>
+</div>
+</body>
+</html>
+    

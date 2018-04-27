@@ -1,0 +1,379 @@
+
+.loginDiv{
+    width: 250px;
+}
+
+.pqDiv{
+    width: 350px;
+}
+
+label{
+    font-size: 10px;
+}
+
+.headerWelcome{
+    width: 70%;
+    height: 80px;
+    float: left;
+}
+
+.headerSession{
+    width: 30%;
+    height: 80px;
+    float: left;
+    margin-left: 500px;
+    margin-top: 50px;
+    color: white;
+}
+
+nav{
+    width: 15%;
+    height: 150px;
+    float: left;
+}
+section{
+    width: 85%;
+    float: left;
+    min-height: 340px;
+}
+
+.nav-button{
+    padding: 5px;
+    margin: 5px;
+    background-color: activecaption;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #73AD21;
+}
+
+.navLink{
+    display: block;
+    text-decoration: none;
+}
+.nav-button:hover{
+    background-color: aquamarine;
+}
+footer{
+    width: 300px;
+    margin: auto;
+}
+.postQuestion{
+    width: 175px;
+    margin-left: 50px;
+}
+
+#allquestions,#yourquestions,#newquestion, #pendingusers, #declinedusers, #reportedquestions{
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#aqcButton,#aqcButton{
+    width: 100px;
+}
+
+.headerWelcome1{
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+
+.homeMain{
+    width: 70%;
+    height: 150px;
+    float: left;
+    background-color: red;
+}
+.homeSide{
+    width: 30%;
+    float: left;
+    background-color: green;
+}
+
+#slides{
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide{
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+}
+
+.slide:nth-of-type(1){
+    background: red;
+}
+.slide:nth-of-type(2){
+    background: orange;
+}
+.slide:nth-of-type(3){
+    background: green;
+}
+.slide:nth-of-type(4){
+    background: blue;
+}
+.slide:nth-of-type(5){
+    background: purple;
+}
+
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+body{
+	min-width:1280px;
+        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: scroll;
+}
+#homeHeader{
+	background-color: #041D2C;
+	height: 100px;
+	width: 100%;
+}
+
+.homeSection{
+        background-color: #07273A;
+	height: 500px;
+	width: 100%;	
+}
+
+#homeFooter{
+	background-color: #07273A;
+	height: 50px;
+	width: 100%;	
+}
+
+#homeHeaderTitle{
+	width: 350px;
+	height: 100%;
+	color: white;
+	float: left;
+}
+#homeHeaderNav{
+	margin-left: 20px;
+	margin-top: 50px;
+	height: 50px;
+	color: white;
+	float: left;
+}
+
+#homeHeaderNav>label{
+	float: left;
+	color:white;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+#titleText{
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 40px;
+        color: aliceblue;
+}
+
+#headerLogin{
+	float: left;
+	margin-left:40px;
+	margin-top: 30px;
+}
+
+#loginMessage{
+	font-size: 10px;
+	color: red;
+}
+
+.formgroup > input{
+	font-size: 10px;
+}
+
+#homeMain{
+	width: 60%;
+	height: 100%;
+	float: left;
+        background: url("../images/image3.jpg") no-repeat;
+        background-size: 100% 100%;
+}
+
+#homeSignUp{
+	width: 40%;
+	height: 100%;
+
+	float: left;
+}
+
+#signUpDiv{
+	color: white;
+	width:300px;
+	height: 90%;
+	margin: 0 auto;
+}
+
+#resetButton{
+	margin-right: 20px;
+}
+
+#registerTitle{
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+#contactdiv{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	color: white;
+}
+
+#aboutusDiv{
+	margin: 0 auto;
+	margin-top: 50px;
+	width : 600px;
+	height: 292px;
+	background-color: rgb(0, 36, 36);
+	border-radius: 3px;
+	box-shadow: 0 2px 2px 0 white, 0 2px 2px 0 white;
+}
+
+#aboutImage{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+#aboutImage>img{
+	width: 200px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#aboutProfile{
+	color: white;
+	float: left;
+        margin-left: 20px;
+}
+
+#aboutProfile>p{
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/*Slide Show*/
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

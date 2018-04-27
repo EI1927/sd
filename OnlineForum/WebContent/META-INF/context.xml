@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Online_Forum">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/forum" password="lata1234" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://onlineforumdb.c3sasqf65rpn.us-east-2.rds.amazonaws.com:3306/ONLINEFORUM" username="latasundaram"/>
+</Context>
